@@ -5,11 +5,14 @@
         "node": true
     },
     "extends": [
-        "standart"
+        "airbnb-base"
     ],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
     "rules": {
+        "no-console": "off",
+        "linebreak-style":"off",
+        
     }
 }
